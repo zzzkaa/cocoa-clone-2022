@@ -1,0 +1,107 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Cocoa Talk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-1x"></i>
+        <i class="fa-solid fa-bolt-lightning fa-1x"></i>
+      </div>
+    </div>
+
+ <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear"></i></span>
+    </div>
+ </header>
+
+ <a id="friends-display-link"><i class="fa-solid fa-circle-info"></i>
+    Friends' Names Display
+    <i class="fa-solid fa-chevron-right fa-xs"></i>
+ </a>
+
+ <main class="friends-screen">
+   <div class="user-component">
+    <div class="user-component__column">
+        <img 
+        src="https://api.onedrive.com/v1.0/drives/450eb396f6ed7e72/items/450eb396f6ed7e72!1240/thumbnails/0/c558x747/content?needs_accessToken=true&prefer=noredirect%2Cclosestavailablesize&cb=aNDUwZWIzOTZmNmVkN2U3MiExMjQwLjM&access_token=EwBAA61DBAAUorz77FfV/edREmvlTq6cECb8X/8AATC6HivsM1iUzR3EQeLQYjQ1Y8fwEU8Gs0vEWw4YbU3d7Jmmgje4VZVAodCqkL9v5CiHMDU3o5peYOJ9BrL8%2bHlnGyW70CannQcsy5vRxbjjM7t4WAcvcIvEwhJwNcLSi7h328UcawW2gagpOoRqXF3IKp0LNof1GgJ1ugmDEFNwLhFbgPw2sz1XVQm%2bXTaIxz/q5VOIXEU7bvvm6ZhdvHAzKe4jR2tGsozJuIyA7n4FJlqzblWn9e56KNXWC6k0hAwBpmhPxfXmXS7%2bIoAltQQRzT/22OQUtCN3KTjo5y9PsF3kcrxm5cPS8jxbW1e/WXzEPcHzO%2bOOqM9EPl46nroDZgAACOVzli3MTeYmEAL1Y4CT5i3yyybd5PHBFhos7HfbbCJ4UgRzXzpweUW7skvG4ymkUBuU8Gyvschvv%2b%2bzZ8uEDuPZC2u47sPZbIC41ZvhpjKfK52V7kCfSmHpJMZKE0k02FnNonDFV8U5oMWo6rJe5jecdSc9su0/Kq/Hh8r6p1WMiYsSVCj4aRKmAfwGyUvT%2bfiLlesQu52RejtlNinabgF16%2bZhoaP6ZYAg6ayS2ZLCJDZakC87lHBdxg/O%2b0xf4rFE2wF%2bckpZ82JUm0W2tSAPq6EV5OZ25g/vP/e2fLfZxdst%2bDihPpEl546v5NUTQM5Kx0Lz8smHs/NnCEDe5XNcE6xVhzeok/yY7hURw4ol6LpnTHZzJkaYa1KOdPMdA7fPOVYKCZNAOorp0XmGRRDvL2vHlQJvoKnmUvkPTqnCgOSL9PPFcX7Dtv31U19BM%2bG0yQYQH7YJ8EzeiB%2bEgAn3U1gz6RTwvsh%2b4MuyJUg6dOAH9eEZjxwChDhpmPWbvRklTtzWrGA4y2Z8OtqNcpyPFZjBlfXU0c/2KWa5yj2lsn7utdNAHUBr8ZRczSiToxg26oaC/Z/wdVz7CYj51%2bySxW6JmgSd1WlCuujpwc3E1e4ECBj9y4Kh5KKeaO/lcIarQWmWuYsHdvczlyXTImD67YVyBRw65Dln6tA%2bte6smdf0yv9eFTzJmZ5f6m0Xn%2bLaT0fjZjtd%2bX0oAg%3d%3d"
+        class="user-component__avatar user-component__avatar--xl"
+        />
+        <div class="user-component__text">
+            <h4 class="user-component__title">Jiwoo</h4>
+            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+        </div> 
+    </div>
+    <div class="user-component__column"></div>
+ </div>
+ <div class="friends-screen__channel">
+    <div class="friends-screen__channel-header">
+        <span>
+            Channel <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </span>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img 
+                src="https://api.onedrive.com/v1.0/drives/450eb396f6ed7e72/items/450eb396f6ed7e72!1240/thumbnails/0/c558x747/content?needs_accessToken=true&prefer=noredirect%2Cclosestavailablesize&cb=aNDUwZWIzOTZmNmVkN2U3MiExMjQwLjM&access_token=EwBAA61DBAAUorz77FfV/edREmvlTq6cECb8X/8AATC6HivsM1iUzR3EQeLQYjQ1Y8fwEU8Gs0vEWw4YbU3d7Jmmgje4VZVAodCqkL9v5CiHMDU3o5peYOJ9BrL8%2bHlnGyW70CannQcsy5vRxbjjM7t4WAcvcIvEwhJwNcLSi7h328UcawW2gagpOoRqXF3IKp0LNof1GgJ1ugmDEFNwLhFbgPw2sz1XVQm%2bXTaIxz/q5VOIXEU7bvvm6ZhdvHAzKe4jR2tGsozJuIyA7n4FJlqzblWn9e56KNXWC6k0hAwBpmhPxfXmXS7%2bIoAltQQRzT/22OQUtCN3KTjo5y9PsF3kcrxm5cPS8jxbW1e/WXzEPcHzO%2bOOqM9EPl46nroDZgAACOVzli3MTeYmEAL1Y4CT5i3yyybd5PHBFhos7HfbbCJ4UgRzXzpweUW7skvG4ymkUBuU8Gyvschvv%2b%2bzZ8uEDuPZC2u47sPZbIC41ZvhpjKfK52V7kCfSmHpJMZKE0k02FnNonDFV8U5oMWo6rJe5jecdSc9su0/Kq/Hh8r6p1WMiYsSVCj4aRKmAfwGyUvT%2bfiLlesQu52RejtlNinabgF16%2bZhoaP6ZYAg6ayS2ZLCJDZakC87lHBdxg/O%2b0xf4rFE2wF%2bckpZ82JUm0W2tSAPq6EV5OZ25g/vP/e2fLfZxdst%2bDihPpEl546v5NUTQM5Kx0Lz8smHs/NnCEDe5XNcE6xVhzeok/yY7hURw4ol6LpnTHZzJkaYa1KOdPMdA7fPOVYKCZNAOorp0XmGRRDvL2vHlQJvoKnmUvkPTqnCgOSL9PPFcX7Dtv31U19BM%2bG0yQYQH7YJ8EzeiB%2bEgAn3U1gz6RTwvsh%2b4MuyJUg6dOAH9eEZjxwChDhpmPWbvRklTtzWrGA4y2Z8OtqNcpyPFZjBlfXU0c/2KWa5yj2lsn7utdNAHUBr8ZRczSiToxg26oaC/Z/wdVz7CYj51%2bySxW6JmgSd1WlCuujpwc3E1e4ECBj9y4Kh5KKeaO/lcIarQWmWuYsHdvczlyXTImD67YVyBRw65Dln6tA%2bte6smdf0yv9eFTzJmZ5f6m0Xn%2bLaT0fjZjtd%2bX0oAg%3d%3d"
+                class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Channel</h4>
+                </div> 
+            </div>
+            <div class="user-component__column">
+                <span>2</span>
+                <i class="fa-solid fa-chevron-right fa-xs"></i>
+            </div>
+         </div>
+    </div>
+</div>
+</main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__bnt">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i></a>
+        </li>
+        <li>
+            <li class="nav__bnt"></li>
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i></i></a>
+        </li>
+        <li>
+            <li class="nav__bnt"></li>
+            <a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+        <li>
+            <li class="nav__bnt">
+            </li><a class="nav__link" href="#"><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/3add8a06ce.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
